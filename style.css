@@ -82,9 +82,6 @@ body{
 }
 
 @media screen and (max-width: 527px) {
-    .calculator{
-        height: 450px;
-    }
     .calculator form input{
         width: 22.4%;
         height: 9vh;
