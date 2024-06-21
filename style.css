@@ -80,3 +80,23 @@ body{
     background-color: #121212;
     color: aqua;
 }
+
+@media screen and (max-width: 527px) {
+    .calculator{
+        height: 450px;
+    }
+    .calculator form input{
+        width: 22.4%;
+        height: 9vh;
+        font-size: 10px;
+        margin: 1px;
+    }  
+    #equals{
+        width: 48% !important;
+        height: 9vh !important;
+    }
+    .calculator form .display input{
+        width: 100%;
+        font-size: 30px !important;
+    }
+}
