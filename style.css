@@ -82,15 +82,21 @@ body{
 }
 
 @media screen and (max-width: 527px) {
+
+    @media screen and (min-height: 900px) {
+        .calculator{
+            height: 52%;
+        }
+    }
     .calculator form input{
         width: 22.4%;
-        height: 9vh;
+        height: 7vh;
         font-size: 10px;
         margin: 1px;
     }  
     #equals{
         width: 48% !important;
-        height: 9vh !important;
+        height: 7vh !important;
     }
     .calculator form .display input{
         width: 100%;
